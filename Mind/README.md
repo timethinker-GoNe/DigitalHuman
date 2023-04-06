@@ -22,4 +22,5 @@ http://aidev.co.kr/aemotion/486
 
 감정은 Emotion, Mood, Personality, Feeling 4가지로 이루어져 있다.
 ![image](https://user-images.githubusercontent.com/45591887/230360803-0c022312-b0e3-439d-9eae-6895011be43f.png)
+
 출처: https://www.youtube.com/watch?v=8D_YNXqTDTs
