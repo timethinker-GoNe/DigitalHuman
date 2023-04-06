@@ -2,7 +2,7 @@
 
 # 인공 감정
 
-1차 서치
+### 1차 서치
 
 - Emotion Model Based Chatbot: 감정 모델 기반의 챗봇 구현 github
 https://github.com/simonlee1004/emotionalchatbot
@@ -22,8 +22,6 @@ http://aidev.co.kr/aemotion/486
 
 1. 감성(Affect)은 Emotion, Mood, Feeling 3가지로 이루어져 있다. 그리고 Personality 와의 상호 업데이트가 있다.
 
-![image](https://user-images.githubusercontent.com/45591887/230361001-cc542baa-f708-47b3-9f17-66985b5df950.png)
-
 ![image](https://user-images.githubusercontent.com/45591887/230360803-0c022312-b0e3-439d-9eae-6895011be43f.png)
 
 출처: https://www.youtube.com/watch?v=8D_YNXqTDTs
@@ -31,23 +29,13 @@ http://aidev.co.kr/aemotion/486
 
 2. Mood는 내부 Vector, Feeling은 외부 Vector, Emotion은 현재 State 이다.
 
+![image](https://user-images.githubusercontent.com/45591887/230361001-cc542baa-f708-47b3-9f17-66985b5df950.png)
+
 Mood, Feeling, Emotion 에 포함되는 항목에 대해 정의를 해야할듯한데,
 
 폴 에크만을 비롯한 심리학자들이 말하는 Emotion 들을 살펴보면,
 
-Neutral
-
-Happiness
-
-Sadness
-
-Surprise
-
-Anger
-
-Fear
-
-Disgust
+Neutral, Happiness, Sadness, Surprise, Anger, Fear, Disgust
 
 와 같은 종류가 있다. Happiness를 살펴보면, 어떤 자극에 대한 행복한 Feeling이 있을 수 있고 그로 인한 행복한 Emotion State가 있을수가 있을 것이다.
 
