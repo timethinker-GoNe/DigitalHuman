@@ -40,6 +40,9 @@ Neutral, Happiness, Sadness, Surprise, Anger, Fear, Disgust
 
 #### 3. Emotion은 N차원의 공간에 정의되고, Feeling, Mood는 그 방향으로 가는 벡터인가?
 
+![3](https://user-images.githubusercontent.com/45591887/230366072-6d56bec4-2607-4c66-a095-ae386a8204ab.PNG)
+
+
 이것은 감정간의 Transition 을 고려할 필요가 있다.
 
 불행한 상태에 행복 벡터를 주입하면, 중립을 거치지 않고 행복해질수가 있는가?
