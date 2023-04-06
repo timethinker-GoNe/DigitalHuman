@@ -20,24 +20,33 @@ http://aidev.co.kr/aemotion/486
 
 ### 전제
 
-1. 감성(Affect)은 Emotion, Mood, Feeling 3가지로 이루어져 있다. 그리고 Personality 와의 상호 업데이트가 있다.
+#### 1. 감성(Affect)은 Emotion, Mood, Feeling 3가지로 이루어져 있다. 그리고 Personality 와의 상호 업데이트가 있다.
 
 ![image](https://user-images.githubusercontent.com/45591887/230360803-0c022312-b0e3-439d-9eae-6895011be43f.png)
 
 출처: https://www.youtube.com/watch?v=8D_YNXqTDTs
 
 
-2. Mood는 내부 Vector, Feeling은 외부 Vector, Emotion은 현재 State 이다.
+#### 2. Mood는 내부 Vector, Feeling은 외부 Vector, Emotion은 현재 State 이다.
 
 ![image](https://user-images.githubusercontent.com/45591887/230361001-cc542baa-f708-47b3-9f17-66985b5df950.png)
-
-Mood, Feeling, Emotion 에 포함되는 항목에 대해 정의를 해야할듯한데,
 
 폴 에크만을 비롯한 심리학자들이 말하는 Emotion 들을 살펴보면,
 
 Neutral, Happiness, Sadness, Surprise, Anger, Fear, Disgust
 
 와 같은 종류가 있다. Happiness를 살펴보면, 어떤 자극에 대한 행복한 Feeling이 있을 수 있고 그로 인한 행복한 Emotion State가 있을수가 있을 것이다.
+
+
+#### 3. Emotion은 N차원의 공간에 정의되고, Feeling, Mood는 그 방향으로 가는 벡터인가?
+
+이것은 감정간의 Transition 을 고려할 필요가 있다.
+
+불행한 상태에 행복 벡터를 주입하면, 중립을 거치지 않고 행복해질수가 있는가?
+
+감정 A  ->  감정 B 의  Transition 상태에서 다른 감정이 나타나는가?
+
+Research 시작
 
 
 
